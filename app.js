@@ -14,6 +14,7 @@ var options = {
     cert: fs.readFileSync('cert.pem')
 };
 
+app.listen(process.env.PORT || 3000);
 
 httpsServer.listen(443);
 
