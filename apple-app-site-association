@@ -1,0 +1,25 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "PX6KQK3YJB.com.redpills.staging",
+                "paths": [
+                    "*"
+                ]
+            },
+            {
+                "appID": "PX6KQK3YJB.com.stanfinance.app",
+                "paths": [
+                    "*"
+                ]
+            },
+            {
+                "appID": "PX6KQK3YJB.com.stan.app",
+                "paths": [
+                    "*"
+                ]
+            }
+        ]
+    }
+}
