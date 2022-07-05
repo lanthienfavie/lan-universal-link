@@ -9,14 +9,14 @@ var credentials = { key: fs.readFileSync('key.pem'), cert: fs.readFileSync('cert
 var httpServer = http.createServer(app);
 var httpsServer = https.createServer(credentials, app);
 
-var options = {
-    key: fs.readFileSync('key.pem'),
-    cert: fs.readFileSync('cert.pem')
-};
 
 app.listen(process.env.PORT || 3000);
 
 httpsServer.listen(443);
+
+app.get('/', (req, res) => {
+    res.send('Hello World!')
+});
 
 app.get('/apple-app-site-association', (req, res) => {
     // var aasa = fs.readFileSync(__dirname + '/apple-app-site-association');
