@@ -10,14 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/lanthienfavie/lan-universal-link.git"
   },
-  "keywords": [],
+  "keywords": [
+    "example",
+    "heroku"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lanthienfavie/lan-universal-link/issues"
   },
   "engines": {
-    "node": "10.x"
+    "node": "17.x"
   },
   "homepage": "https://github.com/lanthienfavie/lan-universal-link#readme",
   "dependencies": {
