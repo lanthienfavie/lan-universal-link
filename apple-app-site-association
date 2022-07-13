@@ -19,6 +19,12 @@
                 "paths": [
                     "*"
                 ]
+            },
+	    {
+                "appID": "PX6KQK3YJB.redpills-staging",
+                "paths": [
+                    "*"
+                ]
             }
         ]
     }
