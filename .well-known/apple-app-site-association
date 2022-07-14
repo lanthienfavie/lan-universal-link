@@ -1,0 +1,13 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": ["PX6KQK3YJB.com.redpills.staging","PX6KQK3YJB.com.stanfinance.app", "PX6KQK3YJB.com.stan.app"],
+             "components": []
+           }
+       ]
+   },
+   "webcredentials": {
+      "apps": [ "PX6KQK3YJB.com.redpills.staging","PX6KQK3YJB.com.stanfinance.app", "PX6KQK3YJB.com.stan.app"]
+   }
+}
